@@ -11,7 +11,7 @@ best <- function(state, outcome) {
 
 	
 	#### Check that state and outcome are valid	
-	funcs$checkValidInput()
+	funcs$checkValidInput(state,outcome)
 
 	#### Return hospital name in that state with lowest 30-day death
 	#### rate
